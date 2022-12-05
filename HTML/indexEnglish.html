@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="no" id="html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flora Norway</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+</head>
+
+<body>
+    <header class="accessibility">
+        <div>
+            <label for="font_size" data-no="Tekst størrelse" data-en="Font size">Text size:</label>
+            <select onchange="change_font_size(this.value)" name="font_size" id="font_size">
+                <option value="100%" selected>100%</option>
+                <option value="150%">150%</option>
+                <option value="200%">200%</option>
+            </select>
+        </div>
+
+        <div id="languages">
+         <p><img src="images/no.svg" alt="Norwegian flag" />Norwegian</p></a> 
+            <h3>\</h3>
+            <p id="CurrentLang"><img src="images/gb.svg" alt="British flag" />English</p>
+        </div>
+    </header>
+
+    <header class="menu">
+        <div id="logo">
+            <img src="images/flora_logo.png" alt="">
+        </div>
+
+        <div id="links">
+            <a href="indexEnglish.html">Homepage</a>
+            <a href="Vår_meny_ENG.html">Menu</a>
+            <a href="reservasjonEnglish.html">Reservations</a>
+            <a href="">accessibility</a>
+            <a href="">link 5</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <center>
+            <div id="description">
+                <h1 id="maintitle">Flora Norway</h1>
+                <p id="maintext">
+                    Welcome to Flora Norway. The restaurant spans two floors
+                    floors, with large windows out
+                    towards the pier outside.
+                    The outdoor dining area has a fantastic location in the city with a view of the fjord and Akershus
+                    Fortress.
+                    On hot summer days, this is the perfect place to eat outside, with a view to the sea and that
+                    teeming life.
+                </p>
+            </div>
+        </center>
+        <div class="slideshow">
+            <img class="slideshowIMG" src="images/slideshow1.jpg" alt="Slide 1" />
+            <img class="slideshowIMG" src="images/slideshow2.jpg" alt="Slide 2" />
+            <img class="slideshowIMG" src="images/slideshow3.jpg" alt="Slide 3" />
+            <img class="slideshowIMG" src="images/slideshow4.jpg" alt="Slide 4" />
+        </div>
+
+    </div>
+    <center>
+        <footer class="info">
+            <div class="kontakt">
+                <ul id="KontaktInfo">
+                    <li>
+                        <h2 class="UnderInfoTitle">Contact us:</h2>
+                    </li>
+                    <li class="UnderInfo">Email: Floranorway@gmail.com</li>
+                    <li class="UnderInfo">Phone number: 12 34 56 78</li>
+                    <li class="UnderInfo">Sameiet Svolders gate 9</li>
+                </ul>
+            </div>
+
+            <div class="item item2">
+                <img src="images/flora_logo_alternative.png" alt="">
+            </div>
+
+            <div class="item item3">
+                <ul id="KontaktInfo">
+                    <li>
+                        <h2 class="UnderInfoTitle">Created by</h2>
+                    </li>
+                    <li class="Students">Luka Dordevic</li>
+                    <li class="Students">Raja Hamza Akhtar</li>
+                </ul>
+            </div>
+        </footer>
+    </center>
+</body>
+
+</html>

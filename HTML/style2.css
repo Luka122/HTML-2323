@@ -1,0 +1,171 @@
+:root {
+  --language: data-no;
+  --beige: beige;
+  --brown: #242422;
+}
+
+body {
+  margin: 0px;
+}
+
+/* Header */
+.conta {
+  font-family: "Times New Roman", Times, serif;
+  background-color: beige;
+  margin-right: 0em;
+  
+}
+.accessibility {
+  display: flex;
+  background-color: beige;
+  font-size: 1.3em;
+  gap: 2em;
+  padding: 5px;
+  justify-content: right;
+}
+
+#CurrentLang {
+  border-bottom: solid 1px black;
+  padding: 1px;
+}
+
+#font_size {
+  font-size: 0.8em;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#languages {
+  display: grid;
+  margin-right: 1em;
+  gap: 0.2em;
+  grid-template-columns: 1fr 0.2fr 1fr;
+}
+
+#languages > p,
+h3 {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+#languages > p > img {
+  width: 1em;
+  margin-right: 3px;
+}
+
+.menu {
+  background-color: var(--brown);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#logo {
+  padding: 1em 0.5em 0.5em 1em;
+}
+
+#links {
+  padding-right: 2em;
+  padding-bottom: 0.2em;
+  padding-left: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: end;
+}
+
+#links > a,
+a:visited {
+  color: white;
+  text-decoration: none;
+  margin: auto;
+  font-size: 2em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: beige;
+  padding: 10px;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.grid-container > div {
+  background-color: beige;
+  text-align: left;
+  padding: 1.5em 0;
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 2em;
+  border-style: hidden hidden groove hidden;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+p.mix {
+  border-style: hidden hidden hidden groove;
+  padding-left: 3em;
+}
+
+p.str {
+  padding-left: 2.5em;
+  font-size: 0.7em;
+}
+
+.boks {
+  box-shadow: 0 0 23px px rgba(0, 0, 0, 0.1);
+}
+
+.boks img {
+  display: block;
+  width: 50%;
+  border-radius: 11px;
+}
+.boks:hover {
+  transform: scale(1.5);
+  z-index: 2;
+  transition: 0.5s;
+}
+
+.info {
+  bottom: 0;
+  width: 100%;
+  background-color: var(--brown);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.UnderInfoTitle {
+  color: beige;
+  font-size: 2.5em;
+}
+
+.UnderInfo {
+  color: beige;
+  border-bottom: 1px solid beige;
+  font-size: 22px;
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.Students {
+  color: beige;
+  font-size: 20px;
+  list-style: none;
+  padding-bottom: 5px;
+}
+p.col {
+  color: black;
+}
+
+@media (max-width: 1000px) {
+  .conta {
+    font-size: 0.5em;
+  }
+}

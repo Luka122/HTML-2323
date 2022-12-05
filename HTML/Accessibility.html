@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="no" id="html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flora Norway</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style4.css">
+    <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+</head>
+
+<body>
+    <header class="accessibility">
+        <div>
+            <label for="font_size" data-no="Tekst størrelse" data-en="Font size">Tekst størrelse:</label>
+            <select onchange="change_font_size(this.value)" name="font_size" id="font_size">
+                <option value="100%" selected>100%</option>
+                <option value="150%">150%</option>
+                <option value="200%">200%</option>
+            </select>
+        </div>
+
+        <div id="languages">
+            <p id="CurrentLang"><img alt="Norske flagget" src="images/no.svg" /> Norsk</p>
+            <h3>\</h3>
+            <p><img src="images/gb.svg" alt="Britiske flagget" />Engelsk</p>
+        </div>
+    </header>
+
+    <header class="menu">
+        <div id="logo">
+            <img src="images/flora_logo.png" alt="">
+        </div>
+
+        <div id="links">
+            <a href="index.html">Hjemmesiden</a>
+            <a href="Vår_meny.html">Vår meny</a>
+            <a href="reservasjon.html">Reserver bord</a>
+            <a href="Accessibility.html">accessibility</a>
+            <a href="">link 5</a>
+        </div>
+    </header>
+
+    <div class="content">
+        ===
+    </div>
+    <div class="content">
+        ===
+    </div>
+    
+    <center>
+        <footer class="info">
+            <div class="kontakt">
+                <ul id="KontaktInfo">
+                    <li>
+                        <h2 class="UnderInfoTitle">Kontakt oss:</h2>
+                    </li>
+                    <li class="UnderInfo">Email: Floranorway@gmail.com</li>
+                    <li class="UnderInfo">Telefon nummer: 12 34 56 78</li>
+                    <li class="UnderInfo">Sameiet Svolders gate 9</li>
+                </ul>
+            </div>
+
+            <div class="item item2">
+                <img src="images/flora_logo_alternative.png" alt="">
+            </div>
+
+            <div class="item item3">
+                <ul id="KontaktInfo">
+                    <li>
+                        <h2 class="UnderInfoTitle">Skapt av</h2>
+                    </li>
+                    <li class="Students">Luka Dordevic</li>
+                    <li class="Students">Raja Hamza Akhtar</li>
+                </ul>
+            </div>
+        </footer>
+    </center>
+</body>
+
+</html>
